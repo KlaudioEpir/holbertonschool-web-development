@@ -1,0 +1,72 @@
+<footer>
+    <div class="footer-container">
+      <div class="logo">
+        <img src="../images/smile.png" alt="smile">
+        <span>SmileSchool</span>
+      </div>
+
+      <p class="copy">© SmileSchool 2020</p>
+
+      <div class="icons">
+        <img src="../images/facebook.png" alt="facebook">
+        <img src="../images/twitter.png" alt="twitter">
+        <img src="../images/Instagram.png" alt="instagram">
+      </div>
+    </div>
+  </footer>
+
+{
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: #071629;
+  height: 118px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  width: 800px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo span {
+  color: white;
+  font-weight: bold;
+}
+
+.copy {
+  color: white;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+}
